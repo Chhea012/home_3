@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: wheat;
+    margin: 0;
+    padding: 0;
+}
+ul li a{
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: red;
+}
+ul li{
+    list-style: none;
+}
+nav{
+    
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+    background: #3cc819;
+}
+footer{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background: #3cc819;
+}
+nav h1{
+    color: white;
+    padding-right: 40px;
+    font-size: 30px;
+}
+nav h1:hover{
+    color: red;
+}
+.main-container{
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(137, 43, 226, 0.761);
+ 
+}
+.container-top{
+    height: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(172, 255, 47, 0.769);
+}
+.container-bottom{
+   text-align: center;
+}
+
+.main-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+.card{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    margin: 30px;
+    font-size: 30px;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover{
+    background-color: chartreuse;
+}
+ul li a:nth-child(1):hover{
+    background-color: rgba(255, 255, 255, 0.232);
+}
+ul li a:nth-child(2):hover{
+    background-color: rgba(255, 255, 255, 0.232);
+}
+ul li a:nth-child(3):hover{
+    background-color: rgba(255, 255, 255, 0.232);
+}
